@@ -1,0 +1,11 @@
+1.  Array
+2.  String
+3.  Linked list
+4.  Binary
+5.  Binary Tree
+6.  Binary Search Tree
+7.  Self Balanced Tree
+8.  Hash Table
+9.  Stack
+10. Queue
+11. Graph
