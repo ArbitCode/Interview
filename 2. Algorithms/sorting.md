@@ -1,7 +1,5 @@
 # Sorting
 
-![When Use which sorting](https://code.likeagirl.io/5-essential-sorting-algorithms-you-should-know-for-your-next-coding-interview-ffc048b0c95a)
-
 1. Selection sort
 2. Bubble sort
 3. Insertion sort
@@ -9,6 +7,8 @@
 5. quick sort
 6. heap sort
 7. radix/counting/bucket sort
+  
+[When Use which sorting](https://code.likeagirl.io/5-essential-sorting-algorithms-you-should-know-for-your-next-coding-interview-ffc048b0c95a)
 
 ![image](big-o.png)
 
