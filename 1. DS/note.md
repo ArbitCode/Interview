@@ -83,8 +83,6 @@ In CPP\
 
 requirement: dictionary operations INSERT, SEARCH and DELETE.
 
-compiler maintains symbol table, in which keys of elements are arbitrary character strings corresponding to identifiers in the language.
-
 Although searching for an element in the hash table can take as long as searching for an element in the Linked list O(n) time in worst case scenario. under reasonable assumptions the average time to search for an element in hash table is O(1).
 
 A hash table generalizes the simpler notation of an ordinary array.
@@ -93,6 +91,60 @@ we take advantage of  direct addressing when we can afford to allocate an array 
 
 ### Hash in Deep
 
-`implement hash table` 
+`implement hash table`
 
-1. 
+1. Do no ask generally, if asked we can use division method for hashing and linear chaining if collisions are detected.
+2. unordered_map<int, int> takes `O(1)` in average and best case while `O(n)` is worst case.
+3. map<int,int> takes `O(log(n))` in best, average and worst case since ti uses Self Balanced Tree and Binary search.
+4. Linear chaining can be implemented using Linked List and stored in sorting.
+5. `unordered_map` is limited to some of basic data structures but `map` can be used with any data structure.
+6. For `Character hashing` use Array Hashing since no of ASCII characters is 256. `number: [0 -> 48,9-> 57], ['A' -> 65, 'Z' -> 90], ['a' -> 97 'z' -> 122]`
+
+```None
+Hash(k) = k mod n;
+[0]->[8]->[10]
+[1]->[1]
+[2]
+[3]->[5]->[12]
+[4]
+[5]->[1]
+```
+
+```CPP
+  map<int,int> mp;
+  unordered_map<int,int> mp;
+```
+
+## Stack
+
+`FIFO`
+
+## Queue
+
+`LIFO`
+
+## Linked List
+
+[1|&]->[2|&]->[3|&]->[4|&]->[5|&]->[6|&]->NULL
+
+## Binary Tree
+
+## Trie
+
+## Radix Tree
+
+## Heaps
+
+## LCA
+
+## Union
+
+## Segment Tree
+
+## Binary Index Tree
+
+## Binary Search Tree
+
+## Self Balance Tree
+
+## Graph
