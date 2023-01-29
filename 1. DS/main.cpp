@@ -1,5 +1,6 @@
 #include <iostream>
 #include "lib/HashTable.h"
+// Command: g++ main.cpp lib/HashTable.cpp lib/LinkedList.cpp
 void details(HashTable<int, std::string> table){
 
     std::cout << "count: " << table.getCount() << std::endl;
