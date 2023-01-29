@@ -1,8 +1,16 @@
 # Sorting
 
+![When Use which sorting](https://code.likeagirl.io/5-essential-sorting-algorithms-you-should-know-for-your-next-coding-interview-ffc048b0c95a)
+
 1. Selection sort
 2. Bubble sort
 3. Insertion sort
+4. merge sort
+5. quick sort
+6. heap sort
+7. radix/counting/bucket sort
+
+![image](big-o.png)
 
 | Algorithms | Basic Concept | Time Complexity |
 |:----------:|:-------------|:--------------|
@@ -44,6 +52,7 @@ for(int step = 0; step < n; step++){
   if(swapped == false) break;
 }
 ```
+
 ![image ](insertion-sort.gif)]
 
 ```CPP
