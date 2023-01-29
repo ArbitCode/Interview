@@ -80,3 +80,19 @@ In CPP\
  |there is a number of built-in function| there is limited built-in function|
 
 ## Hash Table </map, dictionary, hashmap>
+
+requirement: dictionary operations INSERT, SEARCH and DELETE.
+
+compiler maintains symbol table, in which keys of elements are arbitrary character strings corresponding to identifiers in the language.
+
+Although searching for an element in the hash table can take as long as searching for an element in the Linked list O(n) time in worst case scenario. under reasonable assumptions the average time to search for an element in hash table is O(1).
+
+A hash table generalizes the simpler notation of an ordinary array.
+
+we take advantage of  direct addressing when we can afford to allocate an array that has one position for every possible key.
+
+### Hash in Deep
+
+`implement hash table` 
+
+1. 
