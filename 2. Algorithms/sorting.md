@@ -22,14 +22,6 @@
 
 ``` CPP
 // Selection sort
-/* Dry run
-*[5,4,3,2,1]
-* i= [0, n-2]
-* minIndex = i;
-* j = [i, n-1];
-*   if arr[minIndex] > arr[j] than minIndex = j
-* swap(arr[minIndex], arr[i]);
-*/
 for(int step = 0; step < n-1; step++){
   int minIndex = step;
   for(int i = step+1; i < n; i++){
